@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Focus Flow is a simple, lightweight productivity timer designed to help you stay focused.">
+    <meta name="theme-color" content="#e0f2fe">
+    <title>Focus Flow | Productivity Timer</title>
+    <link rel="stylesheet" href="style.css">
+    </head>
+<body>
+
+    <main class="container">
+        <section class="glass-card">
+            <header>
+                <h1>Focus Flow</h1>
+                <p>Stay productive, one session at a time.</p>
+            </header>
+
+            <div class="timer-display" id="timer" aria-live="polite" aria-label="Time remaining">
+                25:00
+            </div>
+
+            <div class="controls">
+                <button id="startBtn" class="btn btn-primary" aria-label="Start Timer">Start</button>
+                <button id="pauseBtn" class="btn btn-secondary" aria-label="Pause Timer" disabled>Pause</button>
+                <button id="resetBtn" class="btn btn-secondary" aria-label="Reset Timer">Reset</button>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Focus Flow. Simple. Fast. Efficient.</p>
+    </footer>
+
+    <script src="script.js" defer></script>
+</body>
+</html>
